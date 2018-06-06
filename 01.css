@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    color: #73ff54;
+}
+
+div{
+    border: thin solid #73ff54;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    color: #73ff54;
+}
