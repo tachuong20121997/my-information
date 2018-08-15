@@ -1,0 +1,833 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ta",
+				"target\tAttr"
+			],
+			[
+				"scr",
+				"script\tTag"
+			],
+			[
+				"bor",
+				"border\tproperty"
+			],
+			[
+				"boe",
+				"border-top\tproperty"
+			],
+			[
+				"border-r",
+				"border-right\tproperty"
+			],
+			[
+				"r",
+				"rowspan\tAttr"
+			],
+			[
+				"bs3-ta",
+				"bs3-table\tbs3-table"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"n",
+				"nbsp\t&nbsp;"
+			],
+			[
+				"borr",
+				"border-right\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"bs3-thu",
+				"bs3-thumbnail:content\tbs3-thumbnail-content"
+			],
+			[
+				"bacl",
+				"background-color\tproperty"
+			],
+			[
+				"ri",
+				"right\tproperty"
+			],
+			[
+				"pos",
+				"pos\tposition"
+			],
+			[
+				"fun",
+				"Function\t( paramsAndBody_..: string ): Function Function"
+			],
+			[
+				"he",
+				"height\tproperty"
+			],
+			[
+				"cons",
+				"console_log"
+			],
+			[
+				"res",
+				"resize\t Style CSS"
+			],
+			[
+				"sc",
+				"script\tTag"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"bs3-i",
+				"bs3-image\tbs3-image"
+			],
+			[
+				"an",
+				"animation\t Style CSS"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"dis",
+				"display\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"u",
+				"url()\tbackground"
+			],
+			[
+				"bs3-na",
+				"bs3-navbar\tbs3-navbar"
+			],
+			[
+				"bs3-col",
+				"bs3-col:5\tbs3-col-5"
+			],
+			[
+				"bs3-co",
+				"bs3-col\tbs3-col"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"bs3-li",
+				"bs3-list-group\tbs3-list-group"
+			],
+			[
+				"bs3-menu",
+				"bs3-sm-link-button:default\tbs3-sm-link-button-default"
+			],
+			[
+				"bacc",
+				"background-color\tproperty"
+			],
+			[
+				"col-",
+				"col-sm-12"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"foot",
+				"footer\tTag"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"backc",
+				"background-color\tproperty"
+			],
+			[
+				"tit",
+				"title\tAttr"
+			],
+			[
+				"hed",
+				"header\t<header>"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"bs3-b",
+				"bs3-button\tbs3-button"
+			],
+			[
+				"lo",
+				"lorem\tLorem ipsum"
+			],
+			[
+				"bs3-nav",
+				"bs3-navbar\tbs3-navbar"
+			],
+			[
+				"bs3-button",
+				"bs3-button:info\tbs3-button-info"
+			],
+			[
+				"nav",
+				"nav\tTag"
+			],
+			[
+				"bs3t",
+				"bs3-table\tbs3-table"
+			],
+			[
+				"lor",
+				"Lorem"
+			],
+			[
+				"script",
+				"script\tTag"
+			],
+			[
+				"src",
+				"source\tTag"
+			],
+			[
+				"meta",
+				"meta\t<meta name=\"\" content=\"\">"
+			],
+			[
+				"ke",
+				"key\t: DOMString StorageEvent"
+			],
+			[
+				"pri",
+				"price"
+			],
+			[
+				"i",
+				"id"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"na",
+				"name\t: DOMString Window"
+			],
+			[
+				"cla",
+				"className\t: DOMString Element"
+			],
+			[
+				"bs3-r",
+				"bs3-row-col\tbs3-row-col"
+			],
+			[
+				"bs3-th",
+				"bs3-thumbnail:content\tbs3-thumbnail-content"
+			],
+			[
+				"fr",
+				"from"
+			],
+			[
+				"im",
+				"import"
+			],
+			[
+				"bs3-",
+				"bs3-row\tbs3-row"
+			],
+			[
+				"gett",
+				"gettype"
+			],
+			[
+				"bgc",
+				"background-color\tproperty"
+			],
+			[
+				"backgc",
+				"background-color\tproperty"
+			],
+			[
+				"mysql_e",
+				"mysql_error"
+			],
+			[
+				"mysq",
+				"mysql_stat"
+			],
+			[
+				"kiem",
+				"KiemTraHopLe"
+			],
+			[
+				"te",
+				"tenlv"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"form",
+				"form\tTag"
+			],
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"do",
+				"dong"
+			],
+			[
+				"da",
+				"danhsach"
+			],
+			[
+				"con",
+				"conn"
+			],
+			[
+				"mysqli",
+				"mysqli_connect"
+			],
+			[
+				"label",
+				"label\t<label>"
+			],
+			[
+				"la",
+				"label\t<label>"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"texta",
+				"text-align\tproperty"
+			],
+			[
+				"me",
+				"method\tAttr"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"gete",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"gtn",
+				"gtnu"
+			],
+			[
+				"gt",
+				"gtnam"
+			],
+			[
+				"wr",
+				"write"
+			],
+			[
+				"op",
+				"open\t(method, url, async, user, password) XMLHttpRequest"
+			],
+			[
+				"w",
+				"window\t: WindowProxy Window"
+			],
+			[
+				"kie",
+				"KiemTraChecked"
+			],
+			[
+				"getElement",
+				"getElementsByName\t( elementName: DOMString ): NodeList Document"
+			],
+			[
+				"getElemen",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"txt",
+				"txtMucLuong"
+			],
+			[
+				"Da",
+				"Date"
+			],
+			[
+				"fo",
+				"focus\t(): void Window"
+			],
+			[
+				"date",
+				"Date\t(): Date Date"
+			],
+			[
+				"KiemTra",
+				"kiemtraform"
+			],
+			[
+				"texa",
+				"text-align\tproperty"
+			],
+			[
+				"tetx",
+				"textarea\tTag"
+			],
+			[
+				"style",
+				"style\t Style CSS"
+			],
+			[
+				"for",
+				"for"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"bo",
+				"border-radius\tproperty"
+			],
+			[
+				"fi",
+				"fixed\tbackground-attachment"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"backg",
+				"background-image\tproperty"
+			],
+			[
+				"sty",
+				"style\tTag"
+			],
+			[
+				"html",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"fonts",
+				"font-size\tproperty"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"font-s",
+				"font-style\tproperty"
+			],
+			[
+				"my",
+				"mysql_error"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"is_n",
+				"is_numeric"
+			],
+			[
+				"ro",
+				"rows\tAttr"
+			],
+			[
+				"ch",
+				"checked\tAttr"
+			],
+			[
+				"table",
+				"table\tTag"
+			],
+			[
+				"mys",
+				"mysql_connect"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"al",
+				"alert\t( message?: DOMString ): void Window"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Co",
+				"Package Control: Install Package"
+			],
+			[
+				"paka",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"package control i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Học Tập/WEB/bootrap/result-game/src/js/01.js",
+		"/D/Học Tập/WEB/bootrap/result-game/src/css/css.css",
+		"/D/Học Tập/WEB/bootrap/result-game/src/css/js.js",
+		"/D/Học Tập/WEB/bootrap/bai-tap-5/float-panel.js",
+		"/D/Học Tập/WEB/bootrap/bai-tap-5/css.css",
+		"/D/Học Tập/WEB/bootrap/bai-tap-5/images/js.js",
+		"/D/Học Tập/WEB/bootrap/bai-tap-5/index.html",
+		"/D/Học Tập/WEB/bootrap/bt3_trangchu/css.css",
+		"/D/Học Tập/WEB/bootrap/bt3_trangchu/src/css/bootstrap.min.css",
+		"/D/Học Tập/WEB/bootrap/bt2_lamwebbanhangdongian/index.html",
+		"/D/Học Tập/WEB/bootrap/bai-tap-1/index.html",
+		"/D/Học Tập/WEB/bootrap/bai-tap-1/css.css",
+		"/D/Học Tập/WEB/video/bootrap/drive-download-20180723T020830Z-001/Tài liệu/Bai 7 document_2.5/2.5/vendor/animate.css",
+		"/D/Học Tập/WEB/video/bootrap/drive-download-20180723T020830Z-001/Tài liệu/Bai 7 document_2.5/2.5/1.html",
+		"/D/Học Tập/WEB/video/bootrap/drive-download-20180723T020830Z-001/Tài liệu/Bai 7 document_2.5/2.5/1.js",
+		"/D/Học Tập/WEB/video/bootrap/drive-download-20180723T020830Z-001/Tài liệu/Bai 7 document_2.5/2.5/1.css",
+		"/D/Học Tập/WEB/video/bootrap/drive-download-20180723T020830Z-001/Tài liệu/bai 6 document_2.4/2.4/2_4_kenh14/1.css",
+		"/C/PM/Sublime Text Build 3170/Data/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/PM/Sublime Text Build 3170/Data/Packages/User/View In Browser.sublime-settings",
+		"/C/PM/Sublime Text Build 3170/Data/Packages/Package Control/Package Control.sublime-settings",
+		"/D/Reactjs/lesson03-jsx/public/js/bootstrap.js",
+		"/D/Reactjs/lesson03-jsx/public/js/bootstrap.min.js",
+		"/D/Reactjs/lesson03-jsx/public/js/jquery-3.3.1.min.js",
+		"/D/Reactjs/lesson03-jsx/src/App.js",
+		"/D/Reactjs/lesson03-jsx/src/App.css",
+		"/D/Reactjs/lesson03-jsx/public/index.html",
+		"/D/Reactjs/lesson02-component/public/index.html",
+		"/D/Reactjs/lesson02-component/src/App.js",
+		"/D/Reactjs/lesson02-component/src/components/Product.js",
+		"/D/Reactjs/lesson02-component/src/components/Header.js",
+		"/D/Reactjs/lesson02-component/src/App.test.js",
+		"/D/Reactjs/lesson02-component/src/index.css",
+		"/D/Reactjs/lesson02-component/src/component/Header.js",
+		"/D/Reactjs/lesson02-component/src/index.js",
+		"/D/Reactjs/lesson02-component/src/component/Product.js",
+		"/D/Reactjs/lesson02-component/public/favicon.ico",
+		"/D/Reactjs/lesson02-component/public/css/bootstrap-theme.css.map",
+		"/D/Reactjs/lesson01-helloreact/src/App.js",
+		"/D/Reactjs/lesson01-helloreact/src/Demo.js",
+		"/D/Reactjs/lesson01-helloreact/src/index.js",
+		"/D/Reactjs/lesson01-helloreact/public/index.html",
+		"/D/Reactjs/lesson01-helloreact/src/index.css",
+		"/D/Reactjs/lesson01-helloreact/src/App.css",
+		"/D/Reactjs/lesson01-helloreact/public/favicon.ico",
+		"/D/Reactjs/lesson01-helloreact/package.json",
+		"/D/Reactjs/lesson01-helloreact/node_modules/.bin/acorn",
+		"/D/Reactjs/lesson01-helloreact/package-lock.json",
+		"/C/Users/Administrator/Desktop/another-login-panel/index.html",
+		"/C/Users/Administrator/Desktop/another-login-panel/css/style.css",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/Bai1/cauhinh.php",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/SV-BUOI 4-AJAX  - ON TAP/Bai 2/khoaKT.htm",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/SV-BUOI 4-AJAX  - ON TAP/Bai 2/bai2.css",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/SV-BUOI 4-AJAX  - ON TAP/Bai 2/bg_top.jpg",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/Buoi5-Buoi6/Bai 1/xoalinhvuc.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/Buoi5-Buoi6/Bai 1/sualinhvuc.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/Buoi5-Buoi6/Bai 1/sualinhvucsubmit.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/Buoi5-Buoi6/Bai 1/hienthilinhvuc.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/Bai1/danhsachkhachhang.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/Buoi5-Buoi6/Bai 1/themlinhvucsubmit.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/Buoi5-Buoi6/Bai 1/themlinhvuc.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/ThucHienCacPhepTinh/Max3So.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/Buoi5-Buoi6/Bai 1/themkhachhang.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/Buoi5-Buoi6/Bai 1/cauhinh.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/Buoi5-Buoi6/Bai 1/formlinhvuc.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/Buoi5-Buoi6/Bai 1/hienthi.php",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/Buoi5-Buoi6/Bai2_Buoi5/Bai2.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/ThucHienCacPhepTinh/KiemTraChanLe.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/ThucHienCacPhepTinh/Tong.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/ThucHienCacPhepTinh/Tong.html",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/Bai2/upload.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/styles/style11.css",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/danhsachkhachhang.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/suakhachhang_submit.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/cauhinh.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/themkhachhang_submit.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/themkhachhang.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/js/KiemTraSNT.html",
+		"/D/xampp/htdocs/BaiTap/OnThi/js/snt.js",
+		"/D/xampp/htdocs/BaiTap/OnThi/js/ptb1.js",
+		"/D/xampp/htdocs/BaiTap/OnThi/js/GiaiPTBac1.html",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/Buoi3/Bai1.html",
+		"/D/xampp/htdocs/BaiTap/OnThi/css/Bai4.html",
+		"/D/xampp/htdocs/BaiTap/OnThi/css/css-bai3.css",
+		"/D/xampp/htdocs/BaiTap/OnThi/css/Bai3.html",
+		"/D/xampp/htdocs/BaiTap/OnThi/css/Bai2.html",
+		"/D/xampp/htdocs/BaiTap/OnThi/css/css-bai2.css",
+		"/D/xampp/htdocs/BaiTap/OnThi/css/Bai1.html",
+		"/D/xampp/htdocs/BaiTap/OnThi/css/css-bai1.css",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/SV-BUOI 3-JAVASCRIPT/Bai9.html",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/SV-BUOI 3-JAVASCRIPT/Bai8.html",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/SV-BUOI 3-JAVASCRIPT/Bai7.html",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/SV-BUOI 3-JAVASCRIPT/Bai7.htm",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/SV-BUOI 3-JAVASCRIPT/Bai6.html",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/SV-BUOI 3-JAVASCRIPT/bai6.js",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/Buoi3/Bai5.html",
+		"/D/xampp/htdocs/BaiTap/OnThi/js/ptb1.css",
+		"/D/xampp/htdocs/BaiTap/OnThi/js/QuanComBinhDan.html",
+		"/D/xampp/htdocs/BaiTap/OnThi/css/images/hinh1.jpg",
+		"/D/xampp/htdocs/BaiTap/OnThi/css/Du lieu bai 4 + bai 5/bai5.docx",
+		"/D/xampp/htdocs/BaiTap/OnThi/css/cssb1",
+		"/F/drive-download-20180508T133111Z-001/Bai 1 Html/html-menu.html",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/xoakhachhang.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/suakhachhang.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/php/ThemKhachHang.php",
+		"/D/xampp/htdocs/BaiTap/ThucHanhBuoi7/Bai 1/danhsachkhachhang.php",
+		"/D/xampp/htdocs/BaiTap/Bai 1/danhsachkhachhang.php",
+		"/D/xampp/htdocs/BaiTap/Bai 1/suakhachhang.php",
+		"/D/xampp/htdocs/BaiTap/Bai 1/cauhinh.php",
+		"/D/xampp/htdocs/BaiTap/Bai 1/themkhachhang.php",
+		"/D/xampp/htdocs/BaiTap/OnThi/js/cauhinh.php",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/SV-BUOI 3-JAVASCRIPT/An hien the HTML.html",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/Bai 1/Bai 1/danhsachkhachhang.php",
+		"/C/Users/Administrator/Desktop/a.html",
+		"/C/Users/Administrator/Desktop/abc.js",
+		"/C/Users/Administrator/Desktop/a.js",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/B7/ThucHanhBuoi7/Bai 1/cauhinh.php",
+		"/C/Users/Administrator/Desktop/drive-download-20180508T133111Z-001/Bai 3 Php/giaohang.php",
+		"/C/Users/Administrator/Desktop/drive-download-20180508T133111Z-001/Bai 3 Php/dbconnect.php",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/B7/ThucHanhBuoi7/Bai 2/upload.php",
+		"/C/Users/Administrator/Desktop/drive-download-20180508T133111Z-001/Bai 4 jQuery/dangki.html",
+		"/C/Users/Administrator/Desktop/drive-download-20180508T133111Z-001/Bai 4 jQuery/muahang.html",
+		"/C/Users/Administrator/Desktop/drive-download-20180508T133111Z-001/Bai 4 jQuery/style.css",
+		"/D/xampp/htdocs/BaiTap/Thực hành buổi 4 (Ôn HTML-CSS-JS-AJAX)/Bài 1-Tự thực hành/dangki.js",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/Buoi3/Bai3.html",
+		"/C/Users/Administrator/Desktop/drive-download-20180508T133111Z-001/Bai 2 Js/muahang.html",
+		"/D/xampp/htdocs/BaiTap/Thực hành buổi 4 (Ôn HTML-CSS-JS-AJAX)/Bài 1-Tự thực hành/DangKiThanhVien.html",
+		"/D/Học Tập/Năm 3 - HKI/Lap trinh web/Buoi3/bai3.js",
+		"/D/xampp/htdocs/BaiTap/Thực hành buổi 4 (Ôn HTML-CSS-JS-AJAX)/Bài 1-Tự thực hành/java.js"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "cake.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

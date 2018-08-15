@@ -1,30 +1,44 @@
-function doigiaodien(co) {
-    if(co == 1)
-        document.getElementById('chung').style.background = "green";
-        document.getElementById('doi').style.background = "green";
-        document.getElementById('chung').style.color = "red";
-}
+$(document).ready(function(){
 
-function  doimau(mau, duongdan) {
-    if(mau == 1)
-    {
-        document.getElementById('frame').src = duongdan;
-        document.getElementById('gt').style.background = "green";
-        document.getElementById('st').style.background = "silver";
-        document.getElementById('pj').style.background = "silver";
-    }
-    else  if(mau == 2)
-    {
-        document.getElementById('frame').src = duongdan;
-        document.getElementById('gt').style.background = "silver";
-        document.getElementById('st').style.background = "green";
-        document.getElementById('pj').style.background = "silver";
-    }
-    else if(mau == 3)
-    {
-        document.getElementById('frame').src = duongdan;
-        document.getElementById('gt').style.background = "silver";
-        document.getElementById('st').style.background = "silver";
-        document.getElementById('pj').style.background = "green";
-    }
-}
+   $("#toabout").click(function(){
+		$('html,body').animate({scrollTop: $("#about").offset().top},1000,"easeInOutBack");
+		return false;
+	});
+
+	 $("#toportfolio").click(function(){
+		$('html,body').animate({scrollTop: $("#portfolio").offset().top},1000,"easeInOutBack");
+		return false;
+	}); 
+	 
+	 $("#tocontact").click(function(){
+		$('html,body').animate({scrollTop: $("#contact").offset().top},1000,"easeInOutBack");
+		return false;
+	});
+
+	$(document).scroll(function(){
+		var vitri = $('html,body').scrollTop(); 
+		
+		if(vitri > 500)
+		{
+			$('.navbar-fixed-top').addClass("zoomsize");
+		}
+		else
+		{
+			$('.navbar-fixed-top').removeClass("zoomsize");
+		}
+
+		if(vitri > 600)
+		{
+			$('.portfolio').addClass("truotngang");
+		}
+		else {
+			$('.portfolio').removeClass("truotngang");
+		}
+	});
+
+	// set cho icon zoom nam o giua hinh
+	$('i.fa.fa-search-plus').css("line-height", $('.docao').css('height'));
+
+	$('[hieuung="tooltip"]').tooltip(); 
+	$('[pop="popover"]').popover(); 
+});

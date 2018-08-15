@@ -1,25 +1,489 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Trang chủ</title>
-    <link rel="stylesheet" href="src/css/01.css">
-    <script src="src/js/01.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,600i,700,700i" rel="stylesheet">
+  	<link rel="stylesheet" href="src/css/01.css">	
+	<script type="text/javascript" src="src/js/01.js"></script>
+	<script type="text/javascript" src="src/js/float-panel.js"></script>
+	<title>Introduce Yourself</title>
 </head>
-<body>
-        <div id="gt" class="style" onclick="doimau(1,'gioithieu.html')">Giới thiệu</div>
-        <div id="st" class="style" onclick="doimau(2, 'sothich.html')">Sở thích</div>
-        <div id="pj" class="style" onclick="doimau(3 ,'project.html')">Project đã làm</div>
-        <div id="noidung">
-            <iframe src="gioithieu.html" frameborder="0" width="100%" height="100%" id="frame"></iframe>
-        </div>
-        <a href="https://tachuong20121997.github.io/cione/html+css/index.html" target="_blank">Cione</a>
-        <br>
-        <a href="https://tachuong20121997.github.io/cartiphone/" target="_blank">Iphone</a>
-        <br>
-        <a href="https://tachuong20121997.github.io/demo-responsive/index.html" target="_blank">demo-responsive</a>   
-        <br>
-        <a href="https://tachuong20121997.github.io/bootstrap-responsive/" target="_blank">bootstrap responsive</a>
-</body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<div id="backtop">&#9650;</div>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="https://tachuong20121997.github.io/my-information/" target="_blank">Home Page</a>
+			</div>
+	
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about" id="toabout">About</a></li>
+					<li><a href="#portfolio" id="toportfolio">portfolio</a></li>
+					<li><a href="#contact" id="tocontact">contact</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+	<!-- end nav -->
+	<div class="profile text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-4 col-md-push-4">
+					<img src="src/images/profile.png" class="img-responsive" alt="Image" hieuung = "tooltip" title="ảnh đại diện" data-placement = "right">
+				</div>
+			</div>
+
+			<h1>INTRODUCE YOURSELF</h1>
+			<hr class="ngantrang">
+			<h3>Web Developer - Graphic Artist - User Experience Designer</h3>
+		</div>
+	</div>
+	<!-- end profile -->
+	<div class="portfolio text-center" id="portfolio">
+		<div class="container">
+			<h2>PORTFOLIO</h2>
+			<hr class="nganden">
+			<div class="row">
+				<div class="col-sm-12 col-md-4 col-lg-4">
+					<div class="thumbnail"  hieuung = "tooltip" title="ảnh đại diện" data-placement = "left">
+						<img src="src/images/cabin.png" class="img-responsive docao" alt="Image">
+						<div class="phongto"  data-toggle="modal" href='#modal-id'>
+							<i class="fa fa-search-plus"></i>
+						</div>	
+					</div>
+	
+				</div>
+				<div class="col-sm-12 col-md-4 col-lg-4">
+					<div class="thumbnail"  hieuung = "tooltip" title="ảnh đại diện" data-placement = "left">
+						<img src="src/images/cake.png" class="img-responsive docao" alt="Image">
+						<div class="phongto" data-toggle="modal" href='#modal-id2'>
+							<i class="fa fa-search-plus"></i>
+						</div>	
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 col-lg-4">
+					<div class="thumbnail"  hieuung = "tooltip" title="ảnh đại diện" data-placement = "left">
+						<img src="src/images/circus.png" class="img-responsive docao" alt="Image">
+						<div class="phongto" data-toggle="modal" href='#modal-id3'>
+							<i class="fa fa-search-plus"></i>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-4 col-lg-4">
+					<div class="thumbnail"  hieuung = "tooltip" title="ảnh đại diện" data-placement = "left">
+						<img src="src/images/game.png" class="img-responsive docao" alt="Image">
+						<div class="phongto" data-toggle="modal" href='#modal-id4'>
+							<i class="fa fa-search-plus"></i>
+						</div>	
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 col-lg-4">
+					<div class="thumbnail"  hieuung = "tooltip" title="ảnh đại diện" data-placement = "left">
+						<img src="src/images/safe.png" class="img-responsive docao" alt="Image">
+						<div class="phongto" data-toggle="modal" href='#modal-id5'>
+							<i class="fa fa-search-plus"></i>
+						</div>	
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 col-lg-4">
+					<div class="thumbnail"  hieuung = "tooltip" title="ảnh đại diện" data-placement = "left">
+						<img src="src/images/submarine.png" class="img-responsive docao" alt="Image">
+						<div class="phongto" data-toggle="modal" href='#modal-id6'>
+							<i class="fa fa-search-plus"></i>
+						</div>	
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- end portfolio -->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="row">
+				<h2 class="text-center"><span pop = "popover" title="tiêu đề" data-content = "hình ảnh đại diện" >ABOUT</span></h2>
+				<hr class="ngantrang">
+				<div class="col-sm-12 col-md-4 col-md-push-2 text-left">
+					<p>
+						Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+					</p>
+				</div>
+				<div class="col-sm-12 col-md-4 col-md-push-2 text-left">
+					<p>
+						Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+					</p>
+				</div>
+			</div>
+			<div class="row text-center">
+				<!-- <button type="button" class="btn btn-primary">
+						<a href=""> Download Theme</a>
+				</button>	 -->
+				<span class="dropdown">
+				    <button class="btn btn-primary" type="button" data-toggle="dropdown"><i class="fa fa-download"></i>&nbsp;Download Theme
+				    <span class="caret"></span></button>
+				    <ul class="dropdown-menu">
+				    
+				      <li><a href="#">HTML</a></li>
+				      <li><a href="#">CSS</a></li>
+				        <li class="divider"></li>
+				      <li><a href="#">JavaScript</a></li>
+				      <li><a href="#">About Us</a></li>
+				    </ul>
+				 </span>
+			</div>
+		</div>
+	</div>
+
+	<div class="container timeline">
+		<div class="row">
+			<h2 class="text-center">Typical projects</h2>
+			<hr class="nganden">
+			<i class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</i>
+			<div class="row duong">
+				<div class="duongke"></div>
+				<div class="row mottin">
+					<div class="col-md-6 col-md-push-1">
+						<div class="row">
+							<div class="col-md-8 text-right">
+								<h3>Project 1<br><a href="https://tachuong20121997.github.io/cione/html+css/index.html" target="_blank">Cione(Unused web site bootstap)</a></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+							<div class="col-md-4">
+								<img src="src/images/1.jpg" class="img-responsive img-circle" alt="Cinque Terre">
+							</div>	
+						</div>
+					</div>
+					<div class="col-md-6"></div>
+				</div>
+				<!-- end mot tin -->
+				<div class="row mottin">
+					<div class="col-md-6"></div>
+					<div class="col-md-6 col-md-pull-1">
+						<div class="row">
+							<div class="col-md-4">
+								<img src="src/images/2.jpg" class="img-responsive img-circle" alt="Cinque Terre">
+							</div>	
+							<div class="col-md-8 text-left">
+								<h3>Project 2<br><a href="https://tachuong20121997.github.io/cartiphone/" target="_blank">Iphone Cart(Unused web site bootstap)</a></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="row mottin">
+					<div class="col-md-6 col-md-push-1">
+						<div class="row">
+							<div class="col-md-8 text-right">
+								<h3>Project 3<br><a href="https://tachuong20121997.github.io/demo-responsive/index.html" target="_blank">Demo MyClass(Used web site bootstap)</a></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+							<div class="col-md-4">
+								<img src="src/images/1.jpg" class="img-responsive img-circle" alt="Cinque Terre">
+							</div>	
+						</div>
+					</div>
+					<div class="col-md-6"></div>
+				</div>
+
+				<div class="row mottin">
+					<div class="col-md-6"></div>
+
+					<div class="col-md-6 col-md-pull-1">
+						<div class="row">
+								<div class="col-md-4">
+								<img src="src/images/4.jpg" class="img-responsive img-circle" alt="Cinque Terre">
+							</div>	
+							<div class="col-md-8 text-left">
+								<h3>Project 4<br><a href="https://tachuong20121997.github.io/bootstrap-responsive/" target="_blank">Demo Bootstrap(Used web site bootstap)</a></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- end about -->
+	<div class="contact" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-push-2">
+					<div class="row">
+						<div class="text-center">
+							<h2>Contact Me</h2>
+							<hr class="nganden">
+						</div>
+					</div>
+
+					<div class="row">
+						<form action="" method="POST" role="form">
+							<div class="form-group">
+								<input type="text" class="form-control" id="" placeholder="Name" required>
+								<input type="email" class="form-control" id="" placeholder="Email Address" required>
+								<input type="text" class="form-control" id="" placeholder="Number Phone" required>
+								<textarea name="" placeholder="Message"></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</form>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-push-3">
+				<div id="carousel-id" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-id" data-slide-to="0" class=""></li>
+						<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+						<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item">
+							<img src="src/images/1.jpg" class="img-responsive" alt="Cinque Terre">
+							<div class="container">
+								<div class="carousel-caption">
+									<h1>Example headline.</h1>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									
+								</div>
+							</div>
+						</div>
+						<div class="item">
+						<img src="src/images/2.jpg" class="img-responsive" alt="Cinque Terre">
+							<div class="container">
+								<div class="carousel-caption">
+									<h1>Another example headline.</h1>
+									<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+								
+								</div>
+							</div>
+						</div>
+						<div class="item active">
+							<img src="src/images/4.jpg" class="img-responsive" alt="Cinque Terre">
+							<div class="container">
+								<div class="carousel-caption">
+									<h1>One more for good measure.</h1>
+									<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- end contact -->
+	<footer class="footer text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-4">
+					<h3>LOCATION</h3>
+					<p>
+						3481 Melrose Place <br>
+						Beverly Hills, CA 90210
+					</p>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<h3>AROUND THE WEB</h3>
+					<ul>
+						<li><a href="" class="fa fa-facebook-f"></a></li>
+						<li><a href="" class="fa fa-google-plus""></a></li>
+						<li><a href="" class="fa fa-fw fa-twitter"></a></li>
+						<li><a href="" class="fa fa-fw fa-linkedin"></a></li>
+						<li><a href="" class="fa fa-fw fa-dribbble"></a></li>
+					</ul>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<h3>ABOUT FREELANCER</h3>
+					<p>
+						Freelance is a free to use, open source Bootstrap theme created by 
+						<a href="https://tachuong20121997.github.io/my-information/" target="_blank">Tran Anh Chuong</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row footer2">
+				<div>
+					Copyright © Your Website 2018
+				</div>
+			</div>
+	</footer>
+
+	<!-- end footer -->
+
+
+	
+
+	<div class="modal fade" id="modal-id">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">Modal title</h4>
+				</div>
+				<div class="modal-body">
+					<img src="src/images/cabin.png" class="img-responsive" alt="Image">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="modal-id2">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">Modal title</h4>
+				</div>
+				<div class="modal-body">
+					<img src="src/images/cake.png" class="img-responsive" alt="Image">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="modal-id3">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">Modal title</h4>
+				</div>
+				<div class="modal-body">
+					<img src="src/images/circus.png" class="img-responsive" alt="Image">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="modal-id4">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">Modal title</h4>
+				</div>
+				<div class="modal-body">
+					<img src="src/images/game.png" class="img-responsive" alt="Image">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="modal-id5">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">Modal title</h4>
+				</div>
+				<div class="modal-body">
+					<img src="src/images/safe.png" class="img-responsive" alt="Image">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="modal-id6">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">Modal title</h4>
+				</div>
+				<div class="modal-body">
+					<img src="src/images/submarine.png" class="img-responsive" alt="Image">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
